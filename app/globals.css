@@ -7,8 +7,13 @@ body {
 }
 
 .ContentBox {
-  background: linear-gradient(to right, #1E1E1E, #0C0C0C);
-  padding: 20px;
+  background: linear-gradient(to right, #191A18, #0F0F0E);
+  padding: 25px;
   border-radius: 25px;
   box-shadow:  0 4px 5px rgba(0, 0, 0, 0.2), 0 6px 10px rgba(0, 0, 0, 0.19);
+}
+
+.container {
+  margin-left: 0;
+  margin-right: 0;
 }

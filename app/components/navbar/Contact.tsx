@@ -33,7 +33,7 @@ const Contact = () => {
                         visible ? icon : <IoMenuSharp size={40} color="white"/>
                     }
                 </button>
-                <div className={` ${visible ? "flex" : "hidden"} flex-col absolute right-0`} onClick={close}>
+                <div className={` ${visible ? "flex" : "hidden"} flex-col py-5 rounded-xl w-[200px] text-center bg-black z-30 absolute right-0`} onClick={close}>
                     <Links/>
                 </div>
             </div>

@@ -1,11 +1,12 @@
 import Image from "next/image";
 import HomeComp from "./components/home-comp/Home";
+import Container from "./layout/Container";
 
 
 export default function Home() {
   return (
-    <div className="container">
+    <Container >
       <HomeComp/>
-    </div>
+    </Container>
   )
 }
