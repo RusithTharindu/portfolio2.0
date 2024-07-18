@@ -24,6 +24,14 @@ const config: Config = {
           '2xl': '6rem',    // Padding for 2xl screens and above
         },
       },
+      maxWidth: {
+        DEFAULT: '100%',  // Default max width for all screens
+        sm: '640px',      // Max width for small screens and above
+        md: '768px',      // Max width for medium screens and above
+        lg: '1024px',     // Max width for large screens and above
+        xl: '1280px',     // Max width for extra large screens and above
+        '2xl': '1536px',  // Max width for 2xl screens and above
+      },
     },
   },
   plugins: [],

@@ -5,6 +5,7 @@ import HomeComp from "./components/home-comp/Home";
 export default function Home() {
   return (
     <div className="container">
+      <HomeComp/>
     </div>
   )
 }
