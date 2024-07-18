@@ -37,7 +37,7 @@ const HomeComp = () => {
                             <div className="w-full flex flex-col md:flex-row justify-between md:items-end group transition-all ease-in-out duration-300 ">
                                 <div>
                                     <p className="text-[#545454]">More about me</p>
-                                    <p className="text-white font-semibold text-[25px]">Credentials</p>
+                                    <p className="text-white font-semibold text-[20px] sm:text-[25px]">Credentials</p>
                                 </div>
                                 <button className="md:mt-0 mt-3">
                                     <IoArrowForwardCircle color="white" size={40} className="opacity-80 transition-transform group-hover:translate-x-2 duration-300 ease-in-out "/>

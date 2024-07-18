@@ -14,7 +14,7 @@ const Contact = () => {
         setVisible(true)
     }
 
-    const close = () => {
+    const handleClose = () => {
         setVisible(false)
     }
 
@@ -28,12 +28,15 @@ const Contact = () => {
                 <button className="w-[130px] text-white border p-2 rounded-xl lg:block hidden"  >
                     Let&apos;s Talk 👋
                 </button>
-                <button className="block lg:hidden" onClick={handleVisible}>
+                <button 
+                    className="block lg:hidden" 
+                    onClick={visible ? handleClose : handleVisible}
+                >
                     {
                         visible ? icon : <IoMenuSharp size={40} color="white"/>
                     }
                 </button>
-                <div className={` ${visible ? "flex" : "hidden"} flex-col py-5 rounded-xl w-[200px] text-center bg-black z-30 absolute right-0`} onClick={close}>
+                <div className={` ${visible ? "flex" : "hidden"} flex-col py-5 rounded-xl w-[200px] text-center bg-black z-30 absolute right-0`}>
                     <Links/>
                 </div>
             </div>
